@@ -4,33 +4,18 @@
   xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
   IgnorableNamespaces="uap mp">
-  <Identity Name="02ba4e71-5fb0-404b-bd8e-240a0acd491c" Publisher="CN=bruce" Version="1.0.0.0" />
+  <Identity Name="02ba4e71-5fb0-404b-bd8e-240a0acd491c" Publisher="CN=cinderuser" Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="eca44183-6af8-425c-a6c0-3375d53fda45" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Cube</DisplayName>
-    <PublisherDisplayName>bruce</PublisherDisplayName>
+    <PublisherDisplayName>cinderuser</PublisherDisplayName>
     <Logo>VisualAssets\StoreLogo.png</Logo>
   </Properties>
-
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10069.0" MaxVersionTested="10.0.10069.0" />
   </Dependencies>
-  <Extensions>
-    <Extension Category="windows.activatableClass.inProcessServer">
-      <InProcessServer>
-        <Path>libEGL.dll</Path>
-        <ActivatableClass ActivatableClassId="libEGL" ThreadingModel="both" />
-      </InProcessServer>
-    </Extension>
-    <Extension Category="windows.activatableClass.inProcessServer">
-      <InProcessServer>
-        <Path>libGLESv2.dll</Path>
-        <ActivatableClass ActivatableClassId="libGLESv2" ThreadingModel="both" />
-      </InProcessServer>
-    </Extension>
-  </Extensions>
   <Resources>
     <Resource Language="x-generate" />
   </Resources>
@@ -46,7 +31,7 @@
       </uap:VisualElements>
     </Application>
   </Applications>
-  <Capabilities> 
+  <Capabilities>
     <Capability Name="internetClient" />
   </Capabilities>
 </Package>

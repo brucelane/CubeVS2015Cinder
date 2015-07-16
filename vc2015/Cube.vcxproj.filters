@@ -22,8 +22,8 @@
     <Filter Include="ANGLE\x64">
       <UniqueIdentifier>{96d88de8-ede7-4c87-baf2-c228e16226b2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="assets">
-      <UniqueIdentifier>{d2c03dd8-3b6f-4fcf-9835-7d76a372dca5}</UniqueIdentifier>
+    <Filter Include="ANGLE\ARM">
+      <UniqueIdentifier>{96d88de8-ede7-4c87-baf2-c228e16226b1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -55,13 +55,11 @@
     <None Include="..\..\..\..\lib\winrt\x64\libGLESv2.dll">
       <Filter>ANGLE\x64</Filter>
     </None>
-    <None Include="..\..\..\..\lib\winrt\ARM\libEGL.dll" />
-    <None Include="..\..\..\..\lib\winrt\ARM\libGLESv2.dll" />
-    <None Include="..\assets\shader.frag">
-      <Filter>assets</Filter>
+    <None Include="..\..\..\..\lib\winrt\ARM\libEGL.dll">
+      <Filter>ANGLE\ARM</Filter>
     </None>
-    <None Include="..\assets\shader.vert">
-      <Filter>assets</Filter>
+    <None Include="..\..\..\..\lib\winrt\ARM\libGLESv2.dll">
+      <Filter>ANGLE\ARM</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
